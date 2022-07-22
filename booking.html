@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pizzeria</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Nápoles</h1> <h4>Restaurante</h4>
+    </header>
+    <nav class="browser">
+            <a href="index.html">Inicio</a>
+            <a href="promos.html">Promos</a>
+            <a href="menu.html">Menu</a>
+            <a href="booking.html">Reservas</a>
+            <a href="info.html">Contacto</a>
+    </nav>
+    <div id="containerbooking">
+        <h2 class="title2">¡Hacé tu Reserva!</h2>
+    <div id="container-img1">
+        <div id="container-img2">
+            <img src="imagenes/local.jpg" class="restaurant1"> 
+        </div>
+        <div id="container-img3">
+            <img src="imagenes/local2.jpg" class="restaurant2">
+            <img src="imagenes/local3.jpg" class="restaurant2">
+        </div>
+        <div id="container-img4">
+            <img src="imagenes/local4.jpg" class="restaurant2">
+            <img src="imagenes/local5.jpg" class="restaurant2">
+        </div>
+    </div>
+        <form action="" id="form1">
+            <fieldset id="f1"> <br> 
+                <label for="name">Nombre y Apellido</label> <br>
+                <input type="text" id="name1" placeholder="Juan Perez"> <br> <br>
+
+                <label for="mail">Correo electrónico</label> <br>
+                <input type="email" id="mail" placeholder="nombre@hotmail.com"> <br> <br>
+
+                <label for="number">Teléfono</label> <br>
+                <input type="number" id="number" placeholder="XXXX-XXXX"> <br> <br>
+       
+                <label for="date">Fecha</label>
+                <input type="date" id="date">
+
+                <label for="time">Horario</label>
+                <input type="time" id="time"> <br> <br>
+
+                <label for="adult">Adultos</label>
+                <input type="number" min="0" id="adult">
+      
+                <label for="child">Menores</label>
+                <input type="number" min="0" id="child"> <br> <br>
+
+                <label for="comments">Comentarios</label> <br> <br>
+                <textarea name="text" rows="8" cols="30" placeholder="Escribir comentarios" id="comments"></textarea> <br> <br>
+
+                <button type="submit" id="enter1" onclick="bookingForm()">Aceptar</button>
+            </fieldset>
+        </form>
+<span class="containernet">
+    <ul> 
+        <li> <a href="https://www.facebook.com"><img src="imagenes/facebookicon2.png" class="links"></a> </li>
+        <li> <a href="https://www.instagram.com"><img src="imagenes/igicon.png" class="links"></a> </li>
+        <li> <a href="https://twitter.com"><img src="imagenes/twittericon.png" class="links"></a> </li>
+    </ul>
+</span>
+<footer> <p>NápolesPizzeria - 2021</p> </footer>
+</body>
+<script src="javascript/forms.js"></script>
+</html>
